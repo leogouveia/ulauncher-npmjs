@@ -1,4 +1,4 @@
-# npms extension
+# npmjs extension
 
 > A [ulauncher](https://ulauncher.io/) extension
 
