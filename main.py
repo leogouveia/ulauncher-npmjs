@@ -26,7 +26,7 @@ class KeywordQueryEventListener(EventListener):
         if not searchKeyword:
             return
 
-        url = 'https://registry.npmjs.com/-/v1/search?text={}&size=5'.format(
+        url = 'https://registry.npmjs.com/-/v1/search?text={}&size={}'.format(
             searchKeyword, searchSize)
         # logger.debug(url)
 
